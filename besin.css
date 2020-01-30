@@ -1,0 +1,959 @@
+#nav{
+    background-color:darkolivegreen;
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 100;
+  }
+
+#navv{
+    background-color: orange;
+    margin-top: 86px;
+    position: fixed;
+    top: 0;
+    width:100%;
+    z-index: 100;
+   
+    }
+#sonn{
+    width: 100%;
+}
+@media(max-width:768px){
+    #nav{
+        width: 100%;
+        font-size: 3px;
+    }
+    .son{
+        width: 100%;
+    }
+    #sonn{
+        width:100%;
+    }
+    .headyazi{
+        margin-right: 60px;
+        
+    }
+ 
+}
+@media(max-width:900px){
+    .headyazi {
+        margin-right: 60px;
+        
+    }
+    #nav{
+        width:100%;
+        font-size: 2px;
+    }
+    
+    .son{
+        width: 100%;
+    }
+    #sonn{
+        width: 100%;
+    }
+    
+}
+@media(max-width:900px)
+.baslikk{
+    margin-left: -60px;
+}
+@media(max-width:768px){
+    #navv {
+       display: none;
+    
+    }
+   
+    #nav a{
+        color: lightcoral;
+    }
+    #nav{
+    height: 135px;
+    } 
+    .anaresim{
+        width: 100%;
+    }
+}
+@media(max-width:1000px)
+{
+    #navv{
+        display: none;
+    }
+    #nav{
+        height: 135px;
+    }
+}
+
+.iletisim{
+    margin-right:500px;
+}
+.iletisim a{
+    color: cornsilk;
+}
+.iletisim a:hover{
+    text-decoration: none;
+    color: orange;
+    width:%130;
+}
+.navbar{
+    background-color: darkolivegreen;
+}
+.navbar-brand{
+    color: cornsilk;
+    margin-left: 10px;
+}
+.navbar-brand:hover{
+    color:snow;
+}
+#ymnav{
+    background-color:darkolivegreen;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+
+.btn btn-outline-danger btn-block dropdown-toggle:hover{
+    color: cadetblue;
+    background-color:bisque;
+}
+.dropdown-menu:hover{
+    background-color:cornsilk;
+}
+
+#orta{
+    margin-top: 75px;
+}
+.ksebze{
+    padding: 10px;
+    background-color: darkolivegreen;
+    color:cornsilk;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+.btnlar{
+    margin-top: 60px;
+}
+.btnlar a {
+    color:black;
+}
+.btnlar a:hover{
+    color:darkgreen;
+    text-decoration: none;
+}
+.btnlar1{
+    margin-top: 60px;
+}
+.ysebze{
+    
+    padding: 10px;
+    background-color: darkolivegreen;
+    color: cornsilk;
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 100;
+}
+.btnlar1 a{
+    color: black;
+}
+.btnlar1 a:hover{
+    color: darkgreen;
+    text-decoration: none;
+}
+.kmeyve{
+    padding: 10px;
+    background-color: darkolivegreen;
+    color: cornsilk;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+.btnlar2{
+    margin-top: 60px;
+}
+.btnlar2 a{
+    color: black;
+
+}
+.btnlar2 a:hover{
+    color:darkgreen;
+    text-decoration: none;
+}
+.ymeyve{
+    
+   padding: 10px;
+    background-color: darkolivegreen;
+    color: cornsilk;
+    position: fixed;
+    top:0;
+    width:100%;
+    z-index: 100;
+    margin-left: 350px;
+   
+}
+.btnlar3{
+    margin-top: 60px;
+}
+.btnlar3 a{
+    color:black;
+}
+.btnlar3 a:hover{
+    color: darkgreen;
+    text-decoration: none;
+    color:
+}
+
+.ilk{
+    margin-top: 50px;
+}
+.bcay{
+    background-color: darkolivegreen;
+    color:cornsilk;
+    padding: 10px;
+    text-align: center;
+  position: fixed;
+    top:0;
+ z-index: 100;
+    width: 100%;
+   
+}
+.basresim{
+    margin-top: 40px;
+}
+.caybuton{
+    color: darkgreen;
+}
+.tahil{
+    padding: 11px;
+     background-color:bisque;
+    text-align: center;
+    color:saddlebrown;
+    position: fixed;
+    top:0;
+    z-index: 100;
+    width: 100%;
+   
+}
+.basresimtahil{
+    margin-top: 50px;
+}
+.bakliyatbas{
+    background-color:blanchedalmond;
+    color:darkgreen;
+    padding: 10px;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+}
+.bakliyatbasresim{
+    margin-top: 40px;
+}
+.btnbakliyat1 a{
+    color:cornsilk;
+}
+.btnbakliyat1 a:hover{
+    text-decoration: none;
+    color:blanchedalmond;
+}
+.btnbakliyat2 a{
+    color: darkgreen;
+}
+.btnbakliyat2 a:hover{
+    text-decoration: none;
+    color: forestgreen;
+   
+}
+#cay a{
+    color:darkgreen;
+}
+#cay a:hover{
+    text-decoration: none;
+    color: snow;
+}
+
+.tavukbasresim{
+    margin-top: 50px;
+}
+.ikon{
+    margin-left: 1330px;
+    padding: 5px;
+    margin-top: 700px;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    background-color:honeydew;
+}
+#kard{
+    background-color:darkolivegreen;
+
+}
+#kard a{
+    color: white;
+}
+.kahvalti{
+    padding: 1px;
+}
+.kanser{
+    padding: 1px
+}
+#anabuton{
+    background-color:orange;
+    color: white;
+    margin-top: 1px;
+}
+.oneri{
+    background-color:#c7caab;
+}
+.arkaa{
+    background-color:#f0f0f0;
+}
+.sumbit,.reset{
+    background-color:darkolivegreen;
+    color:cornsilk;
+   
+}
+.etarkaplan{
+    background-color:#f6f4f6;
+         
+}
+.sutarkaplan{
+    background-color: #f2ffff;
+    font-family: cursive;
+}
+.cayarkaplan{
+    background-color: #fdfffd;
+    font-family: cursive;
+}
+#yogurtnav{
+    background-color:#3cb2d6;
+    position: fixed;
+    top: 0;
+    width:100%;
+    z-index: 100;
+   
+}
+#sunav{
+    background-color:azure;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width:100%;
+}
+.sunav{
+    color: darkblue;
+}
+#ayrannav{
+    background-color: mediumblue;
+    position: fixed;
+    top: 0;
+    width:100%;
+    z-index: 100;
+}
+.ayran{
+    color:cornsilk;
+}
+.tahilbuton a{
+    color:brown;
+}
+.tahilbuton a:hover{
+    color: cornsilk;
+    text-decoration:none;
+}
+#tahilnav{
+    background-color:bisque;
+    position: fixed;
+    top: 0;
+    width:100%;
+    z-index: 100;
+}
+.yumurtaa{
+    background-color:#fffbe9; 
+}
+.yumurtaarka{
+    margin-top: 74px;
+}
+.yumurta{
+    color: darkred; 
+}
+.tahilu{
+    color: saddlebrown;
+}
+.tahilu:hover{
+    color: orangered;
+}
+.tahilarkaplan{
+    background-color: #fffbe9;
+    font-family: cursive;
+}
+.bakliyatarkaplan{
+    background-color: #fffbe9;
+    font-family: cursive;
+}
+.ksebzearkaplan{
+    background-color: #e7e7e7;
+    font-family: cursive;
+}
+.ysebzearkaplan{
+    background-color: #e7e7e5;
+    font-family: cursive;
+}
+.kismeyvearkaplan{
+    background-color: #e7e7e7;
+    font-family: cursive;
+}
+.ymeyvearkaplan{
+    background-color: #e7e7e5;
+    font-family: cursive;
+}
+.suarkaplan{
+    background-color: #f2fffe;  
+    font-family: cursive;
+}
+.ayranarkaplan{
+    background-color: #f4feff;
+    font-family: cursive;
+}
+.yogurtarkaplan{
+    background-color: #f4feff;
+    font-family: cursive;
+  
+}
+
+#tavuknav{
+    background-color: maroon;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width:100%;
+}
+.tavukk{
+    color: cornsilk;
+}
+.modal-body{
+    background-color:#fff9e9;
+}
+.modal-header{
+    background-color:#fff9e9;    
+}
+#tereyagnav{
+    background-color:darkolivegreen;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width:100%;
+}
+.tereyag{
+    color: cornsilk;
+}
+#peynirbtn a{
+    color: cornsilk;
+}
+#peynirbtn a:hover{
+    text-decoration: none;
+    color:darkseagreen;
+}
+.peynirarka{
+    background-color: #fff1f1;
+    font-family: cursive;
+}
+.peynir {
+    color: cornsilk;
+}
+#peynirnav{
+    background-color: darkolivegreen;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+#baliknav {
+    background-color:#73786d;   
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    color: chocolate;
+}
+.balikarkaresim{
+    background-color: #f0f0f0;
+}
+#balik {
+    color:white;
+}
+.balikbuton {
+    color: black;
+}
+.balikbuton:hover{
+    text-decoration:none;
+    color: white;
+}
+.tereyagarkaplan{
+    background-color: #f9f9f8;
+    font-family: cursive;
+}
+.resimdiv{
+    display: inline-block;
+    overflow: hidden;
+ 
+
+}
+
+.efekt{
+    margin: 0 auto;
+    font-family: "Segoe UI",sans-serif;
+}
+.resim{
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    opacity: .99;
+    border-radius: 4px;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.05);
+}
+.resim:before{
+    content: '';
+    background: linear-gradient(to bottom,transparent 0%,
+    rgba(0,0,0,0.7)100%
+    );
+    background: -webkit-linear-gradient(top,transparent 0%,rgba(0,0,0,0.7)100%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    z-index: 50%;
+    transition-property: top,opacity;
+    transition-duration: 0.3s;
+
+    opacity: 100px;
+}
+.resim img{
+    display: block;
+}
+.detay{
+    font-size: 16px;
+    padding: 40px;
+    color:#fff;
+    position: absolute;
+    left: 0px;
+    bottom:0px;
+    z-index: 3;
+}
+.detay span{
+ 
+    display: block;
+    position: relative;
+    top: 100px;
+    transition-property: top,opacity;
+    transition-duration: 0.1s;
+    transition-delay: 0s;
+}
+
+.baslik{
+    line-height: 2;
+    font-size: 18px;
+    font-family: "Comic Sans MS"
+    
+}
+.resim:focus:before, .resim:focus:span, .resim:hover:before, .resim:hover:span{
+    opacity: 1 ;
+}
+.resim:focus:before, .resim:hover:before{
+    top:0%;
+}
+.resim:focus span, .resim:hover span{
+    top:20%;
+}
+.resim:focus .baslik, .resim:hover .baslik{
+    transition-delay: 0.1s;
+}
+.kahvalti{
+    margin-top: 60px;
+}
+.yogurt{
+    margin-top: 70px;
+}
+
+.yogurtte{
+    font-size: 30px;
+}
+.sunav{
+    font-size: 30px;
+}
+.ilk{
+    margin-top: 68x;
+}
+.basresim{
+    margin-top: 48px;
+}
+.bcayy{
+    font-size: 30px;
+}
+.tahilu{
+    font-size: 30px;
+}
+.basresimtahil{
+    margin-top: 18px;
+}
+.bakliyatbasresim{
+    margin-top: 40px;
+}
+.peynirbasresim{
+    margin-top: 60px;
+}
+.sutarkaplanresim{
+    margin-top: 26px;
+}
+.etresim{
+    margin-top: 26px;
+}
+.balikbas{
+    margin-top: 50px;
+}
+.ikonn{
+    position: fixed;
+    z-index: 100;
+    margin-top: 390px;
+  
+}
+.balikikon{
+    position: fixed;
+    z-index: 0;
+    margin-top: 680px;
+    margin-left:1380px;
+    font-size: 45px;
+}
+.balikikon a{
+    color: dimgray;
+}
+.balikikon a:hover{
+    color: dimgray;
+}
+.bakliyaticon{
+    position: fixed;
+    z-index: 100;
+    margin-top: 220px;
+    margin-left: 550px;
+    font-size: 30px;
+}
+.tahilikon{
+     position: fixed;
+    z-index: 0;
+    margin-top: 680px;
+    margin-left:1380px;
+    font-size: 45px;
+}
+.tahilikon a{
+    color: burlywood;
+}
+.tahilikon a:hover{
+    color: brown;
+}
+
+    @media (max-width:600px){
+        .tahilikon{
+    position: fixed;
+    z-index: 0;
+    margin-top: 400px;
+    margin-left:700px;
+    font-size: 25px;
+    }
+        .balikikon{
+    position: fixed;
+    z-index: 0;
+    margin-top: 680px;
+    margin-left:1380px;
+    font-size: 45px;
+}
+}
+.ksebzeikon{
+    position: fixed;
+    z-index: 0;
+    margin-top: 680px;
+    margin-left:1380px;
+    font-size: 45px;
+}
+.ksebzeikon a{
+    color: darkolivegreen
+}
+.ksebzeikon a:hover{
+    color:#fffc5a;
+}
+@media (max-width:600px){
+    .ksebzeikon{
+    position: fixed;
+    z-index: 0;
+    margin-top: 400px;
+    margin-left:700px;
+    font-size: 25px;
+    
+}
+    .balikikon{
+    position: fixed;
+    z-index: 0;
+    margin-top: 680px;
+    margin-left:700px;
+    font-size: 45px;
+}
+.ksebzeikon a{
+    color: darkolivegreen
+}
+.ksebzeikon a:hover{
+    color:#fffc5a;
+}
+   
+}
+@media(max-width:1000px){
+     .balikikon{
+    position: fixed;
+    z-index: 0;
+    margin-top: 680px;
+    margin-left:700px;
+    font-size: 35px;
+}
+     .ksebzeikon{
+    position: fixed;
+    z-index: 0;
+    margin-top: 690px;
+    margin-left:700px;
+    font-size: 30px;
+    }
+    .bakliyatbasresim{
+        margin-top: 70px;
+    }
+    
+         .tahilikon{
+    position: fixed;
+    z-index: 0;
+    margin-top: 650px;
+    margin-left:700px;
+    font-size: 30px;
+         }
+}
+.ksebzeikon a{
+    color: darkolivegreen
+}
+.ksebzeikon a:hover{
+    color:#fffc5a;
+}
+}
+.instagram a{
+    color: black;
+}
+.mail a{
+    color:black;
+    
+}
+.twitter a{
+    color: black;
+   
+}
+.instaa{
+    background-color:cornsilk;
+}
+.instagram a:hover{
+    color: darkolivegreen;
+}
+.mail a:hover{
+    color: darkolivegreen;
+}
+.twitter a:hover{
+    color: darkolivegreen;
+}
+.facebook a{
+    color: black;
+}
+.facebook a:hover{
+    color: darkolivegreen;
+}
+
+#navbar-iletisim ul li a{
+    color: orange;
+}
+#navbar-iletisim ul li a:hover{
+    text-decoration: none;
+    color: cornsilk;
+}
+.logou{
+ margin-left: 10px;
+    padding-right: 20px;
+}
+.modalbas {
+    color: brown;
+    
+}
+.modalbas:hover{
+    color: brown;
+   text-decoration: none;
+}
+#kefirr{
+    background-color: #ffc5a8;
+    position: sticky;
+    z-index: 100;
+    width: 100%;
+    top: 0;
+    color: mediumpurple;
+    height: 70px;
+}
+.kefirr{
+    color: hotpink;
+}
+.ksebzearkaplan
+{
+    font-family:cursive;
+}
+.yumurtaa{
+    font-family:cursive;
+}
+.kefirarka{
+    font-family: cursive;
+}
+.kahvaltiarka{
+    font-family: cursive;
+}
+.balikarkaresim{
+    font-family: cursive;
+}
+.tavukarka{
+    font-family: cursive;
+}
+.etarkaplan{
+     font-family: cursive;
+}
+@media(max-width:768px){
+    .ksebzearkaplan{
+        font-family: monospace;
+    }
+    .yumurtaa{
+        font-family: monospace;
+    }
+    .kefirarka{
+        font-family: monospace;
+    }
+    .kahvaltiarka{
+        font-family: monospace;
+    }
+    .balikarkaresim{
+        font-family: monospace;
+    }
+    .tavukarka{
+        font-family: monospace;
+    }
+    .etarkaplan{
+        font-family: monospace;
+    }
+    .tereyagarkaplan{
+        font-family: monospace;
+    }
+     .peynirarka{
+        font-family: monospace;
+    }
+    .sutarkaplan{
+        font-family: monospace;
+    }
+     .cayarkaplan{
+        font-family: monospace;
+    }
+    .tahilarkaplan{
+        font-family: monospace;
+    }
+    .bakliyatarkaplan{
+        font-family: monospace;
+    }
+    .ksebzearkaplan{
+        font-family: monospace;
+    }
+    .ysebzearkaplan{
+        font-family: monospace;
+    }
+    .kismeyvearkaplan{
+        font-family: monospace;
+    }
+    .ymeyvearkaplan{
+        font-family: monospace;
+    }
+    .suarkaplan{
+        font-family: monospace;
+    }
+    .ayranarkaplan{
+        font-family: monospace;
+    }
+    .yogurtarkaplan{
+        font-family: monospace;
+    }
+}
+@media(max-width:900px){
+    .ksebzearkaplan{
+        font-family: monospace;
+    }
+    .yumurtaa{
+        font-family: monospace;
+    }
+    .kefirarka{
+        font-family: monospace;
+    }
+    .kahvaltiarka{
+        font-family: monospace;
+    }
+    .balikarkaresim{
+        font-family: monospace;
+    }
+    .tavukarka{
+        font-family: monospace;
+    }
+    .etarkaplan{
+        font-family: monospace;
+    }
+    .tereyagarkaplan{
+        font-family: monospace;
+    }
+    .peynirarka{
+        font-family: monospace;
+    }
+    .sutarkaplan{
+        font-family: monospace;
+    }
+    .cayarkaplan{
+        font-family: monospace;
+    }
+    .tahilarkaplan{
+        font-family: monospace;
+    }
+    .bakliyatarkaplan{
+        font-family: monospace;
+    }
+    .ksebzearkaplan{
+        font-family: monospace;
+    }
+    .ysebzearkaplan{
+        font-family: monospace;
+    }
+    .kismeyvearkaplan{
+        font-family: monospace;
+    }
+    .ymeyvearkaplan{
+        font-family: monospace;
+    }
+    .suarkaplan{
+        font-family: monospace;
+    }
+    .ayranarkaplan{
+        font-family: monospace;
+    }
+    .yogurtarkaplan{
+        font-family:monospace;
+    }
+}
+#anasayfalink{
+    text-decoration: underline;
+}
+#anasayfalink:hover{
+    color: orange;
+}
